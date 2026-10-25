@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "PDF Associate",
+  "version": "1.0.0",
+  "description": "双击任意 PDF：按内容哈希打开库内已有副本，否则复制进所在文件夹同名的分类。Double-click any PDF: open its existing library copy by content hash, or import it into a collection named after its folder.",
+  "author": "RSLN-creator",
+  "homepage_url": "https://github.com/RSLN-creator/zotero-pdf-associate",
+  "applications": {
+    "zotero": {
+      "id": "zotero-pdf-associate@rsyhn.dev",
+      "strict_min_version": "6.999",
+      "strict_max_version": "10.*",
+      "update_url": "https://raw.githubusercontent.com/RSLN-creator/zotero-pdf-associate/main/update.json"
+    }
+  }
+}
